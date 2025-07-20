@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: www.adityajaiswal.com
+    - host: www.sammek.shop
       http:
         paths:
           - path: /
@@ -20,7 +20,7 @@ spec:
                 name: dotnet-noteapp
                 port:
                   number: 80
-    - host: adityajaiswal.com
+    - host: sammek.shop
       http:
         paths:
           - path: /
@@ -32,6 +32,6 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - www.adityajaiswal.com
-        - adityajaiswal.com
-      secretName: adityajaiswal-co-tls
+        - www.sammek.shop
+        - sammek.shop
+      secretName: sammek-co-tls
