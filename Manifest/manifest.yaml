@@ -30,7 +30,7 @@ spec:
       serviceAccountName: noteapp-sa
       containers:
         - name: dotnet-noteapp
-          image: sammek/noteapp:v2
+          image: sammek/noteapp:v3
           ports:
             - containerPort: 5050
           env:
